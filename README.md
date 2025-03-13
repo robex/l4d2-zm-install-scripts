@@ -60,3 +60,5 @@ The scripts will do the following things:
 - Add a few extra QoL plugins (fakelag, server_restarter)
 - Setup useful symlinks in `/home/steam/` folder (admins_simple.ini, plugins, etc)
 - Copy scripts to `/home/steam/l4d2-zm-install-scripts/`
+
+The scripts launch the servers inside `tmux`, familiarize yourself with it if you need to interact with the server console.
