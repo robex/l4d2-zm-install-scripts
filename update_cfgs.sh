@@ -14,9 +14,9 @@ tmux kill-server
 git -C L4D2-Competitive-Rework/ pull
 cp -r L4D2-Competitive-Rework/* l4d2/
 
-cp l4d2-install-scripts/server.cfg l4d2/cfg/
+cp l4d2-zm-install-scripts/server.cfg l4d2/cfg/
 
 # Create server.cfg files
-sh l4d2-install-scripts/create_srv_cfgs.sh $1 $2 $3
+bash l4d2-zm-install-scripts/create_srv_cfgs.sh $1 $2 $3
 
-sh l4d2-install-scripts/run_l4d2.sh $1 $4
+bash l4d2-zm-install-scripts/run_l4d2.sh $1 $4

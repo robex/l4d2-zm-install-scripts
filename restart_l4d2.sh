@@ -9,4 +9,4 @@ cd /home/steam
 tmux kill-server
 sleep 2
 
-sh l4d2-install-scripts/run_l4d2.sh $1 $2
+bash l4d2-zm-install-scripts/run_l4d2.sh $1 $2

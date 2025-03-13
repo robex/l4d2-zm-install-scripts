@@ -16,7 +16,7 @@ git clone https://github.com/SirPlease/L4D2-Competitive-Rework.git
 cp -r L4D2-Competitive-Rework/* l4d2/
 
 # Install extras (fakelag)
-cp -r l4d2-install-scripts/extras/addons l4d2/
+cp -r l4d2-zm-install-scripts/extras/addons l4d2/
 
 echo "sm plugins load fakelag.smx" >> ~/l4d2/cfg/sharedplugins.cfg
 echo "sm plugins load l4d2_server_restarter.smx" >> ~/l4d2/cfg/sharedplugins.cfg
@@ -29,9 +29,9 @@ ln -s l4d2/addons/sourcemod/configs/matchmodes.txt matchmodes.txt
 cp /home/steam/server.cfg /home/steam/l4d2/cfg/server.cfg
 
 # Create server.cfg files
-sh l4d2-install-scripts/create_srv_cfgs.sh $1 $2 $3
+bash l4d2-zm-install-scripts/create_srv_cfgs.sh $1 $2 $3
 
 # Download custom maps (uncomment if wanted, requires around 20GB disk space)
-sh l4d2-install-scripts/install_custom_maps.sh
+bash l4d2-zm-install-scripts/install_custom_maps.sh
 
-sh l4d2-install-scripts/run_l4d2.sh $1 $4
+bash l4d2-zm-install-scripts/run_l4d2.sh $1 $4

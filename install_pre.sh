@@ -46,11 +46,11 @@ usermod -aG sudo steam
 #   steam
 
 
-cp -r /root/l4d2-install-scripts /home/steam
-chown -R steam:steam /home/steam/l4d2-install-scripts
+cp -r /root/l4d2-zm-install-scripts /home/steam
+chown -R steam:steam /home/steam/l4d2-zm-install-scripts
 
-cp /root/l4d2-install-scripts/server.cfg /home/steam
+cp /root/l4d2-zm-install-scripts/server.cfg /home/steam
 chown steam:steam /home/steam/server.cfg
 
 echo "Executing install script..."
-sudo -i -u steam /bin/sh /home/steam/l4d2-install-scripts/install_l4d2.sh $1 $2 $3 $4
+sudo -i -u steam /bin/bash /home/steam/l4d2-zm-install-scripts/install_l4d2.sh $1 $2 $3 $4
