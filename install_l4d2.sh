@@ -18,6 +18,7 @@ cp -r L4D2-Competitive-Rework/* l4d2/
 # Install extras (fakelag)
 cp -r l4d2-zm-install-scripts/extras/addons l4d2/
 
+echo "" >> ~/l4d2/cfg/sharedplugins.cfg
 echo "sm plugins load fakelag.smx" >> ~/l4d2/cfg/sharedplugins.cfg
 echo "sm plugins load l4d2_server_restarter.smx" >> ~/l4d2/cfg/sharedplugins.cfg
 
