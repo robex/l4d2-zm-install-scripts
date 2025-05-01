@@ -14,7 +14,7 @@ The purpose of these scripts is to deploy a competitive-ready L4D2 Zonemod serve
 
 As `root` user, run:
 ```
-apt install git -y
+apt update && apt install git -y
 git clone https://github.com/robex/l4d2-zm-install-scripts/
 cd l4d2-zm-install-scripts
 bash install_pre.sh [nsrv] [srvname] [srvloc] [startport]
