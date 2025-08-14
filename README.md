@@ -1,12 +1,12 @@
 # L4D2 Zonemod server deployment scripts
 
-The purpose of these scripts is to deploy a competitive-ready L4D2 Zonemod server. They are not fully production ready or idiot-proof (you need _some_ knowledge about how to run a L4D2 server) but they work (as of March 2025), and since some people asked me to publish them, here they are.
+The purpose of these scripts is to deploy a competitive-ready L4D2 Zonemod server. They are not fully production ready or idiot-proof (you need _some_ knowledge about how to run a L4D2 server) but they work (as of March 2025), and since some people asked me to publish them, here they are. PRs are welcome!
 
 ## Requirements
 
-- A server with Ubuntu (or any other Debian-based OS), recommended at least 2 cores and 2GB RAM for 1 server.
+- A server with Ubuntu (or any other Debian-based OS), recommended at least 2 decently powerful cores and 2GB RAM for 1 game server.
 - Basic Linux and Valve server management knowledge.
-- 30 GB free space
+- 30 GB free space (mostly taken up by custom maps).
 
 ## Usage (read everything first!)
 
