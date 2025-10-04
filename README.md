@@ -26,14 +26,15 @@ usage: install_pre.sh [nsrv] [srvname] [srvloc] [startport]
        srvname: l4d2 server name
        srvloc: server location for l4d2 server name
        startport: starting port
+	   custommaps: whether to download custom maps (1 for yes, 0 for no)
 ```
-An example to deploy a single server called "robex - NY" on port 27015 would be:
+An example to deploy a single server called "robex - NY" on port 27015 with custom maps would be:
 ```
-bash install_pre.sh 1 "robex" "NY" 27015
+bash install_pre.sh 1 "robex" "NY" 27015 1
 ```
-An example to deploy 2 servers called "robex - AU 1" and "robex - AU 2" respectively on ports 30000 and 30001 would be:
+An example to deploy 2 servers called "robex - AU 1" and "robex - AU 2" respectively on ports 30000 and 30001 without custom maps would be:
 ```
-bash install_pre.sh 2 "robex" "AU" 30000
+bash install_pre.sh 2 "robex" "AU" 30000 0
 ```
 
 ### Other functionalities
@@ -56,7 +57,7 @@ bash update_cfgs.sh [nsrv] [srvname] [srvloc] [startport]
 The scripts will do the following things:
 - Create a `steam` user
 - Download L4D2 server and L4D2-Competitive rework repo
-- Download custom maps
+- Download custom maps if specified
 - Add a few extra QoL plugins (fakelag, server_restarter)
 - Setup useful symlinks in `/home/steam/` folder (admins_simple.ini, plugins, etc)
 - Copy scripts to `/home/steam/l4d2-zm-install-scripts/`

@@ -32,7 +32,10 @@ cp /home/steam/server.cfg /home/steam/l4d2/cfg/server.cfg
 # Create server.cfg files
 bash l4d2-zm-install-scripts/create_srv_cfgs.sh $1 $2 $3
 
-# Download custom maps (uncomment if wanted, requires around 20GB disk space)
-bash l4d2-zm-install-scripts/install_custom_maps.sh
+if [ "$5" -eq "1" ]; then
+    # download custom maps
+    bash l4d2-zm-install-scripts/install_custom_maps.sh
+fi
+
 
 bash l4d2-zm-install-scripts/run_l4d2.sh $1 $4

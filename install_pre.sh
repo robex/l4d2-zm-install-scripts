@@ -1,12 +1,13 @@
 #!/bin/bash
 
-# usage: install_pre.sh [nsrv] [srvname] [srvloc] [startport]
+# usage: install_pre.sh [nsrv] [srvname] [srvloc] [startport] [custommaps]
 #        nsrv: number of servers to launch
 #        srvname: l4d2 server name
 #        srvloc: server location for l4d2 server name
 #        startport: starting port
+#        custommaps: whether to download custom maps (1 for yes, 0 for no)
 #
-# example: ./install_pre.sh 2 robex EU 27015
+# example: ./install_pre.sh 2 robex EU 27015 0
 
 if [ "$#" -ne 4 ]; then
     echo "read first lines of script for usage"
@@ -53,4 +54,4 @@ cp /root/l4d2-zm-install-scripts/server.cfg /home/steam
 chown steam:steam /home/steam/server.cfg
 
 echo "Executing install script..."
-sudo -i -u steam /bin/bash /home/steam/l4d2-zm-install-scripts/install_l4d2.sh $1 $2 $3 $4
+sudo -i -u steam /bin/bash /home/steam/l4d2-zm-install-scripts/install_l4d2.sh $1 $2 $3 $4 $5
