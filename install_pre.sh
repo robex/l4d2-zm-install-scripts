@@ -18,7 +18,7 @@ echo "Installing prerequisites..."
 dpkg --add-architecture i386 # enable multi-arch
 apt-get update -y && apt-get upgrade -y
 apt-get install -y libc6:i386 # install base 32bit libraries
-apt-get install -y lib32z1 unzip wget tmux psmisc sed sudo git 7zip
+apt-get install -y lib32z1 unzip wget tmux psmisc sed sudo git
 
 
 # Create user account
