@@ -17,11 +17,11 @@ As `root` user, run:
 apt update && apt install git -y
 git clone https://github.com/robex/l4d2-zm-install-scripts/
 cd l4d2-zm-install-scripts
-bash install_pre.sh [nsrv] [srvname] [srvloc] [startport]
+bash install_pre.sh [nsrv] [srvname] [srvloc] [startport] [custommaps]
 ```
 Where the parameters to `install_pre.sh` are:
 ```
-usage: install_pre.sh [nsrv] [srvname] [srvloc] [startport]
+usage: install_pre.sh [nsrv] [srvname] [srvloc] [startport] [custommaps]
        nsrv: number of servers to launch
        srvname: l4d2 server name
        srvloc: server location for l4d2 server name
