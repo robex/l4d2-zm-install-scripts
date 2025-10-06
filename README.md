@@ -1,6 +1,6 @@
 # L4D2 Zonemod server deployment scripts
 
-The purpose of these scripts is to deploy a competitive-ready L4D2 Zonemod server. They are not fully production ready or idiot-proof (you need _some_ knowledge about how to run a L4D2 server) but they work (as of March 2025), and since some people asked me to publish them, here they are. PRs are welcome!
+The purpose of these scripts is to deploy a competitive-ready L4D2 Zonemod server. They are not fully production ready or idiot-proof (you need _some_ knowledge about how to run a L4D2 server) but they work (as of 2025), and since some people asked me to publish them, here they are. PRs are welcome!
 
 ## Requirements
 
