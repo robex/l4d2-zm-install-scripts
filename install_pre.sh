@@ -9,7 +9,7 @@
 #
 # example: ./install_pre.sh 2 robex EU 27015 0
 
-if [ "$#" -ne 4 ]; then
+if [ "$#" -ne 5 ]; then
     echo "read first lines of script for usage"
     exit
 fi
