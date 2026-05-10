@@ -23,11 +23,14 @@ Where the parameters to `install_pre.sh` are:
 ```
 usage: install_pre.sh [nsrv] [srvname] [srvloc] [startport] [custommaps]
        nsrv: number of servers to launch
-       srvname: l4d2 server name
+       srvname: l4d2 server name (no spaces allowed)
        srvloc: server location for l4d2 server name
        startport: starting port
 	   custommaps: whether to download custom maps (1 for yes, 0 for no)
 ```
+> [!WARNING]  
+> Make sure the "srvname" variable contains **no spaces**. You can use underscores instead (e.g. "My Server" -> "My_Server")
+
 An example to deploy a single server called "robex - NY" on port 27015 with custom maps would be:
 ```
 bash install_pre.sh 1 "robex" "NY" 27015 1
