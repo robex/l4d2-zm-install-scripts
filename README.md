@@ -6,7 +6,7 @@ The purpose of these scripts is to deploy a competitive-ready L4D2 Zonemod serve
 
 - A server with Ubuntu (or any other Debian-based OS), recommended at least 1 decently powerful core and 1GB RAM for 1 game server. Tested on Ubuntu Server 22.04 and Debian 12.
 - Basic Linux and Valve server management knowledge.
-- 30 GB free space (mostly taken up by custom maps).
+- 40 GB free space (mostly taken up by custom maps). If custom maps are not installed, 20 GB are enough.
 
 ## Usage (read everything first!)
 
